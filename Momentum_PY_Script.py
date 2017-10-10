@@ -18,3 +18,4 @@ for i in xrange(1,len(table)):
     image = urllib.urlretrieve(url+suffix,"C:\Users\\skorn\\Pictures\Momentum Images\\"+name)
     print "%d images downloaded - %d remaining" % (counter, len(table)-counter-1)
     counter += 1
+    #complete
